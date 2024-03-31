@@ -62,11 +62,11 @@ const Regester = () => {
         <form onSubmit={regHandle}  action="" className="space-y-12">
             <div className="space-y-4">
             <div>
-                    <label for="email" className="block mb-2 text-sm -ml-72">Name</label>
+                    <label for="email" className="block mb-2 text-sm -ml-48  lg:-ml-72">Name</label>
                     <input type="text" name="name" id="name" placeholder="Your Name"  className="w-full px-3 py-2 border rounded-md border-gray-700 bg-gray-900 text-gray-100" required />
                 </div>
                 <div>
-                    <label for="email" className="block mb-2 text-sm -ml-72">Email address</label>
+                    <label for="email" className="block mb-2 text-sm -ml-48  lg:-ml-72">Email address</label>
                     <input type="email" name="email" id="email" placeholder="leroy@jenkins.com "  className="w-full px-3 py-2 border rounded-md border-gray-700 bg-gray-900 text-gray-100" required />
                 </div>
                 <div>
