@@ -54,7 +54,7 @@ const Regester = () => {
       
     }
     return (
-        <div className="flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-gray-900 text-gray-100 w-1/2 mx-auto mt-5">
+        <div className="flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-gray-900 text-gray-100 lg:w-1/2 mx-auto mt-5">
         <div className="mb-8 text-center">
             <h1 className="my-3 text-4xl font-bold">Sign Up</h1>
             <p className="text-sm text-gray-400">Sign Up to access your account</p>

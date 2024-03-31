@@ -27,7 +27,7 @@ const Navber = () => {
             </ul>
             <div className="items-center flex-shrink-0  lg:flex">
                 <Link to='/login'><button className="self-center px-8 py-3 rounded bg-green-500 mr-2">Sign in</button></Link>
-                <Link to='/regester'><button className="self-center px-8 py-3 font-semibold rounded bg-violet-400 text-gray-900">Sign up</button></Link>
+                <Link to='/regester'><button className="self-center mr-2 px-8 py-3 font-semibold rounded bg-violet-400 text-gray-900">Sign up</button></Link>
             </div>
            
         </div>

@@ -20,7 +20,7 @@ const Login = () => {
         const email =e.target.email.value
         const password= e.target.password.value
 
-        
+           
         signInWithEmailAndPassword(auth,email,password)
         .then((result)=>{
             const user= result.user
@@ -51,7 +51,7 @@ const Login = () => {
       })
     }
     return (
-        <div className="flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-[#8025E4] text-gray-100 w-1/2 mx-auto mt-5">
+        <div className="flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-[#8025E4] text-gray-100 lg:w-1/2 mx-auto mt-5">
         <div className="mb-8 text-center">
             <h1 className="my-3 text-4xl font-bold">Sign in</h1>
             <p className="text-sm text-white">Sign in to access your account</p>
